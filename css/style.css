@@ -1,0 +1,38 @@
+/* --------------------------
+  Base
+--------------------------- */
+[class^="section-"]{
+  height: 100vh;
+}
+
+.section-one{
+  background-color: #1abc9c;
+}
+.section-two{
+  background-color: #9b59b6;
+}
+.section-three{
+  background-color: #f1c40f;
+}
+.section-four{
+  background-color: #e74c3c;
+}
+.section-five{
+  background-color: #3498db;
+}
+.section-six{
+  background-color: #34495e;
+}
+.section-seven{
+  background-color: #e67e22;
+}
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+
+
+
+/* --------------------------
+  SVG Styles
+--------------------------- */
