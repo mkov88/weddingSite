@@ -3,10 +3,12 @@
 --------------------------- */
 [class^="section-"]{
   height: 100vh;
+  margin: 0;
+  overflow:auto;
 }
 
 .section-one{
-  background-color: #1abc9c;
+  background-color: #d7fff5;
 }
 .section-two{
   background-color: #9b59b6;
@@ -26,13 +28,74 @@
 .section-seven{
   background-color: #e67e22;
 }
+/* --------------------------
+  SVG Styles
+--------------------------- */
+body{
+  background-color: #9b59b6;
+}
+
 
 /* --------------------------
   Keyframes
 --------------------------- */
+@keyframes offset{
+100%{
+    stroke-dashoffset:0;
+  }
+}
 
-
-
+@keyframes fillit{
+100%{
+    fill:#f18284;
+  }
+}
 /* --------------------------
   SVG Styles
 --------------------------- */
+
+svg {
+	display: block;
+	margin: 4em auto 0;
+	width: 40%;
+}
+
+.st1{
+  stroke: #f18284;
+  stroke-width: 1;
+  stroke-dasharray: 1390;
+  stroke-dashoffset: 1390;
+  animation: offset 2s linear forwards, fillit .8s 2s ease forwards;
+}
+
+/* --------------------------
+  RSVP Button Styles
+--------------------------- */
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'lato', sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+  transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.datPurp
+{
+	background-color: #9b59b6;
+	border-bottom: 5px solid #2c3e50;
+	text-shadow: 0px -2px #2c3e50;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
