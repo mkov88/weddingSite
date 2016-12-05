@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* --------------------------
   SVG Styles
 --------------------------- */
@@ -123,4 +127,19 @@ svg {
   -webkit-animation-delay: 3s;
   -webkit-animation-iteration-count: 4;
   color: #27b899;
+}
+
+/*scrolling*/
+a[ id= "two" ]{
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "three" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "four" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
 }
