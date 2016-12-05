@@ -37,11 +37,16 @@
     background-repeat: repeat-y;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* --------------------------
   SVG Styles
 --------------------------- */
 body{
   background-color: #9b59b6;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -86,7 +91,6 @@ svg {
   margin: 50px auto 0;
 	padding: 20px 80px 19px 80px;
 	border-radius: 10px;
-	font-family: 'Raleway', sans-serif;
 	font-size: 35px;
   font-weight: 700;
 	color: #FFF;
