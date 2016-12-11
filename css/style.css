@@ -1,6 +1,10 @@
 /* --------------------------
   Base
 --------------------------- */
+body{
+  color:#34495e;
+}
+
 [class^="section-"]{
   height: 100vh;
   margin: 0;
@@ -36,13 +40,23 @@
     background-size: cover;
     background-repeat: repeat-y;
 }
-
+.section-two.image {
+    background-image: url('../img/weddingInfoSection2.jpg');
+}
 a {
   text-decoration: none;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+h1{
+  font-size: 3em;
+}
+p{
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 /* --------------------------
@@ -129,17 +143,150 @@ svg {
   color: #27b899;
 }
 
-/*scrolling*/
-a[ id= "two" ]{
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px );
+/*blend  image*/
+/*.blendybob {
+	width: 80%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0);;
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/masque-24.png);
+	background-size: cover;
+	}
+.blendybob img {
+  width: 100%;
+  mix-blend-mode: screen;
+  background-color: rgba(255, 255, 255, 0);;
+}*/
+.venueImg img{
+  max-width: 400px;
+  border: 10px solid rgba(240, 129, 132, .3);
 }
 
-a[ id= "three" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -500px );
-    transform: translateY( -500px );
+
+/* Flex */
+.row {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-a[ id= "four" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -1000px );
-    transform: translateY( -1000px );
+
+.col {
+  flex: 1 1 8%;
+  margin: 0 0 0.5rem 0;
+  padding: 0.5em 10px;
+  box-sizing: border-box;
+}
+
+/* nested grids */
+.row .row, .row.nested {
+  flex: 1 1 auto;
+  margin-top: -0.5em;
+}
+
+/* full width grids */
+.row.wide-fit {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* center grids */
+.row.center {
+  justify-content: center;
+}
+
+.center .col {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/* columns widths */
+
+.col-span-1 {
+  flex-basis: 8.3333%;
+}
+
+.col-span-2 {
+  flex-basis: 16.6666%;
+}
+
+.col-span-3 {
+  flex-basis: 25%;
+}
+
+.col-span-4 {
+  flex-basis: 33.3333%;
+}
+
+.col-span-5 {
+  flex-basis: 41.6666%;
+}
+
+.col-span-6 {
+  flex-basis: 50%;
+}
+
+.col-span-7 {
+  flex-basis: 58.3333%;
+}
+
+.col-span-8 {
+  flex-basis: 66.6666%;
+}
+
+.col-span-9 {
+  flex-basis: 75%;
+}
+
+.col-span-10 {
+  flex-basis: 83.3333%;
+}
+
+.col-span-11 {
+  flex-basis: 91.6666%;
+}
+
+.col-span-12 {
+  flex-basis: 100%;
+}
+
+.fixed-width {
+  flex: 0 0 500px;
+  background-color: rgba(255,0,0,0.1) !important;
+}
+
+@media all and (max-width: 568px) {
+  .col-span-1,
+  .col-span-2,
+  .col-span-3,
+  .col-span-4,
+  .col-span-5 {
+    flex-basis: 50%;
+  }
+
+  .col-span-6,
+  .col-span-7,
+  .col-span-8,
+  .col-span-9,
+  .col-span-10,
+  .col-span-11 {
+    flex-basis: 100%;
+  }
+
+  .nested .col {
+    flex-basis: 100%;
+  }
+}
+/*End Flex*/
+
+/*wedding info - section 2*/
+.row.space{
+  margin-top: 5%;
+}
+
+.weddingText{
+  text-align: right;
+}
+
+.weddingText hr{
+  border: 1px solid #34495e;
 }
