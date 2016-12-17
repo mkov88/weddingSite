@@ -58,7 +58,13 @@ p{
   font-size: 1.5em;
   line-height: 1.5em;
 }
-
+.panel{
+  background-color: rgba(255, 255, 255, .4);
+  width: 80%;
+  margin: 50px auto;
+  padding-top: 20px;
+  border-radius: 5px;
+}
 /* --------------------------
   SVG Styles
 --------------------------- */
