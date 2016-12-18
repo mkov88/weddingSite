@@ -22,7 +22,8 @@ body{
   /*f1c40f yellow*/
 }
 .section-four{
-  background-color: #e74c3c;
+  background-color: rgba(240, 129, 132, .5);
+  /*red #e74c3c*/
 }
 .section-five{
   background-color: #3498db;
@@ -76,12 +77,17 @@ a{
 }
 
 body{
-  background-color: #9b59b6;
+  /*background-color: #9b59b6;*/
   font-family: 'Raleway', sans-serif;
 }
 
 hr{
   border: 1px solid #34495e;
+}
+
+.smallerText{
+  font-size: 1.1em;
+  line-height: 2;
 }
 /* --------------------------
   Keyframes
@@ -306,6 +312,17 @@ svg {
 .section-three hr{
   position: relative;
   top: -20px;
+}
+/*Travel - section 4*/
+.travelText{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+.map{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
 }
 
 p.hotelText {
