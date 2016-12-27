@@ -65,6 +65,25 @@ p{
   padding-top: 20px;
   border-radius: 5px;
 }
+
+
+
+
+
+
+/*** sidebar - not finished ***/
+
+#sidebar ul { background: #eee; padding: 10px; }
+li { margin: 0 0 0 20px; }
+#main { width: 390px; float: left; }
+#sidebar { width: 190px; float: right; }
+
+
+
+
+
+
+
 /* --------------------------
   Text Styles
 --------------------------- */
