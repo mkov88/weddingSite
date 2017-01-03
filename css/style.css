@@ -66,26 +66,34 @@ p{
   border-radius: 5px;
 }
 
+/* --------------------------
+   Sidebar - not finished
+--------------------------- */
+#sidebar ul {
+  background: #ffffff;
+  padding: 10px;
+}
+#sidebar ul li {
+  margin: 0 0 0 20px;
+  line-height: 40px;
+  text-decoration: none;
+  list-style: none;
+}
+#sidebar ul li a{
+color: #f18284;
+}
 
-
-
-
-
-/*** sidebar - not finished ***/
-
-#sidebar ul { background: #eee; padding: 10px; }
-li { margin: 0 0 0 20px; }
-#main { width: 390px; float: left; }
-#sidebar { width: 190px; float: right; }
-
-
-
-
-
+#sidebar {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 15%;
+  border-radius: 5px;
+}
 
 
 /* --------------------------
-  Text Styles
+   Text Styles
 --------------------------- */
 .noPanelTitle{
   margin-left: 10%;
@@ -183,6 +191,10 @@ svg {
   color: #27b899;
 }
 
+.fa-angle-double-down.pink{
+  color: #f18284;
+
+}
 /*blend  image*/
 /*.blendybob {
 	width: 80%;
@@ -201,7 +213,9 @@ svg {
   border: 10px solid rgba(240, 129, 132, .3);
 }
 
-
+/* --------------------------
+  TRON (the grid)
+--------------------------- */
 /* Flex */
 .row {
   margin-top: 0.5rem;
