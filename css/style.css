@@ -69,6 +69,9 @@ p{
 /* --------------------------
    Sidebar - not finished
 --------------------------- */
+#sidebar {
+  z-index: 100;
+}
 #sidebar ul {
   background: #ffffff;
   padding: 10px;
@@ -435,6 +438,9 @@ nav a {
 .modal{
   color: #ebebeb;
 }
+.modal p{
+  font-size: 14px;
+}
 .modal:before {
   content: "";
   display: none;
@@ -444,7 +450,7 @@ nav a {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 101;
 }
 .modal:target:before {
   display: block;
@@ -453,18 +459,18 @@ nav a {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-  top: 20%;
+  top: 10%;
 }
 .modal-dialog {
   background: #2c3e50;
   border: #333 solid 1px;
   border-radius: 5px;
-  margin-left: -200px;
+  /*margin-left: -200px;*/
   position: fixed;
-  left: 50%;
+  left: 20%;
   top: -100%;
-  z-index: 11;
-  width: 360px;
+  z-index: 102;
+  width: 60%;
   -webkit-transform: translate(0, -500%);
   -ms-transform: translate(0, -500%);
   transform: translate(0, -500%);
