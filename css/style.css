@@ -66,11 +66,13 @@ p{
   border-radius: 5px;
 }
 
+
 /* --------------------------
    Sidebar - not finished
 --------------------------- */
-#sidebar {
+#sidebar  {
   z-index: 100;
+  -webkit-animation-delay: 3s;
 }
 #sidebar ul {
   background: #ffffff;
@@ -505,3 +507,17 @@ nav a {
       font-size: 30px;
       padding: 3px 6px 0px 13px;
 }
+.backModal{
+      margin-bottom: 20px;
+    }
+    .hotelImgOne{
+      width: 400px;
+      height:200px;
+      background-repeat: no-repeat;
+      padding-left:30px;
+      padding-top:10px
+    }
+    .activityImgOne{
+      width:auto; 
+      height: 400px;
+    }

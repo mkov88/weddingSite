@@ -21,7 +21,7 @@ animated welcome svg
 
 <div class="section-one image" id="anchor-1">
 
-	<div id="sidebar">
+	<div id="sidebar" class="animated fadeIn">
 
 			<ul>
 				<li><a href="#anchor-1" onclick="smoothScroll('anchor-1');">Home</a></li>
@@ -32,9 +32,7 @@ animated welcome svg
 				<li><a href="#anchor-6" onclick="smoothScroll('anchor-6');">Registry</a></li>
 				<li><a href="#anchor-7" onclick="smoothScroll('anchor-7');">Photos</a></li>
 
-
 		</ul>
-
 	</div>
 
 
@@ -56,7 +54,7 @@ animated welcome svg
 <!-- end super duper badass animating text -->
 
 <!-- sort of baller RSVP button -->
-<a href="https://kovatfirstsight.anrsvp.com" target="blank" class="action-button shadow animate datPurp animated fadeIn">RSVP</a>
+<a href="https://kovatfirstsight.anrsvp.com" target="blank" class="action-button shadow datPurp animated fadeIn">RSVP</a>
 <!-- end RSVP button -->
 
 <!-- scroll down -->
@@ -113,7 +111,7 @@ Hotels
 
 		<div class="row space panel">
 			<div class="col col-span-5">
-				<img src="http://placehold.it/400x200" class="hotelImgOne">
+				<img src="img/hampton.jpg" class="hotelImgOne">
 			</div>
 			<div class="col col-span-6">
 				<p class="hotelText">
@@ -146,7 +144,7 @@ Hotels
 						<p>It's a 10 minute walk to Wrightsville Manor or a 4 minute drive. Walking distance to lots of restaurants at Lumina Station and a 7 min. drive to shopping and restaurants at Mayfaire Towne Center. 4 min to Wrightsville Beach<br />
 					</div>
 					<div class="modal-footer">
-						<a href="#anchor-3" class="btn">back</a>
+						<a href="#anchor-3" class="btn backModal">back</a>
 					</div>
 				</div>
 				<!-- end Modal -->
@@ -160,7 +158,7 @@ Hotels
 			<div class="row space panel add">
 				<div class="col col-span-5">
 
-					<img src="http://placehold.it/400x200" class="hotelImgOne">
+					<img src="img/hilton.jpg" class="hotelImgOne">
 				</div>
 				<div class="col col-span-6">
 					<p class="hotelText">
@@ -190,7 +188,7 @@ $139 (2 night minimum)</p>
 <p>It's a 6 minute drive to Wrightsville Manor. Walking distance to lots of restaurants and shopping at Mayfaire Towne Center. 8 minute drive to Wrightsville Beach. <br />
 </div>
 <div class="modal-footer">
-<a href="#anchor-3" class="btn">back</a>
+<a href="#anchor-3" class="btn backModal">back</a>
 </div>
 </div>
 <!-- end Modal -->
@@ -202,14 +200,15 @@ $139 (2 night minimum)</p>
 					</nav>
 				</p>
 				</div>
+				<a href="#anchor-4" onclick="smoothScroll('anchor-4');"><i id="anchor-3" class="fa fa-angle-double-down animated bounce"></i></a>
 
 				</div>
 
 
 
-				<a href="#anchor-4" onclick="smoothScroll('anchor-4');"><i id="anchor-3" class="fa fa-angle-double-down pink animated bounce"></i></a>
 	</div>
 
+</div>
 <!--
 =====================
 Travel
@@ -248,18 +247,21 @@ Things to do
 -->
 	<div id="anchor-5" class="section-five">
 		<h1 class="noPanelTitle">Dope Shit to do when you livin dat salt life</h1>
-		<hr align="center" width="80%">
 
 		<div class="row space panel">
 			<div class="col col-span-5">
-				<img src="http://placehold.it/400x200" class="hotelImgOne">
+				<img src="img/downtown.jpeg" class="activityImgOne">
 			</div>
 			<div class="col col-span-6">
 				<p class="hotelText smallerText">
-				<strong>Thing 1</strong> <br>
-				Normally, both your asses would be dead as fucking fried chicken,<br>
-				but you happen to pull this shit while I'm in a transitional period<br>
-				so I don't wanna kill you, I wanna help you <br>
+				<strong>Downtown Wilmington/Historic District </strong> <br>
+				 Head to Front Street to be right in the middle of many local restaurants and shops.
+				 While you’re downtown, make sure to walk along the river to check out a great view!
+				 Some of our favorite dining places are The Copper Penny, Fork ’N’ Cork, and Beer Barrio.
+				 If you need a sweet treat, go to Kilwin's for some amazing ice cream and fudge.
+				 Find out about local tours (historic, Hollywood sites, ghost walks, etc.) 
+				 from the Visitor Information Center located on the corner of Market and S. Water Streets.
+				 <br>
 				<nav class="cl-effect-8">
 					<a href="#">link to site</a>
 					<a href="#">link to directions</a>
@@ -276,10 +278,13 @@ Things to do
 				</div>
 				<div class="col col-span-6">
 					<p class="hotelText smallerText">
-					<strong>Thing 2</strong> <br>
-					Normally, both your asses would be dead as fucking fried chicken,<br>
-					but you happen to pull this shit while I'm in a transitional period<br>
-					so I don't wanna kill you, I wanna help you <br>
+					<strong>Wrightsville Beach</strong> <br>
+					You definitely shouldn't come to Wilmington without checking out the beach! 
+					Wrightsville Beach is about 5-10 minutes from the hotels.
+					It is pay-to-park, but you can always catch an Uber to avoid parking costs.
+					Some places to eat are Tower 7, Oceanic, Sweet and Savory (breakfast), and Ceviche.
+					Our favorite brunch place is the Famous Toastery.
+ 					<br>
 					<nav class="cl-effect-8">
 						<a href="#">link to site</a>
 						<a href="#">link to directions</a>
@@ -288,6 +293,47 @@ Things to do
 				</div>
 
 				</div>
+
+				<div class="row space panel add">
+					<div class="col col-span-5">
+						<img src="http://placehold.it/400x200" class="hotelImgOne">
+					</div>
+					<div class="col col-span-6">
+						<p class="hotelText smallerText">
+						<strong>Lumina Station</strong> <br>
+						Within 5 minutes of the hotels are Lumina Station and Mayfaire Town Center.
+						Check out Lumina Station for some local shopping and dining options.
+						Some of our favorite restaurants in Lumina Station are David’s Deli & Restaurant and Halligans Public House.
+						If you’re looking for a nicer dinner try Port Land Grille.
+	 					<br>
+						<nav class="cl-effect-8">
+							<a href="#">link to site</a>
+							<a href="#">link to directions</a>
+						</nav>
+					</p>
+					</div>
+
+					</div>
+
+					<div class="row space panel add">
+						<div class="col col-span-5">
+							<img src="http://placehold.it/400x200" class="hotelImgOne">
+						</div>
+						<div class="col col-span-6">
+							<p class="hotelText smallerText">
+							<strong>Mayfaire Town Center</strong> <br>
+							 If you are interested in doing some shopping or checking out a movie, Mayfaire is the place to go!
+							Some of the stores include Bath and Body Works, Belk, New York and Company, and Barnes and Noble.
+							There are plenty of places to grab a bite to eat, too!
+		 					<br>
+							<nav class="cl-effect-8">
+								<a href="#">link to site</a>
+								<a href="#">link to directions</a>
+							</nav>
+						</p>
+						</div>
+
+						</div>
 
 				<a href="#anchor-6" onclick="smoothScroll('anchor-6');"><i id="anchor-5" class="fa fa-angle-double-down pink animated bounce"></i></a>
 	</div>
