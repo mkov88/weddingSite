@@ -510,14 +510,17 @@ nav a {
 .backModal{
       margin-bottom: 20px;
     }
-    .hotelImgOne{
+    .hotelImgOne, .activityImg{
       width: 400px;
       height:200px;
       background-repeat: no-repeat;
       padding-left:30px;
       padding-top:10px
     }
-    .activityImgOne{
-      width:auto; 
-      height: 400px;
+    .activityImgVert{
+      width:auto;
+      height: 357px;
+      background-repeat: no-repeat;
+      padding-left:30px;
+      padding-top:10px
     }
