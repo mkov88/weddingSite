@@ -38,14 +38,25 @@ body{
 .image {
     width:100vw;
     height: 100vh;
-    background-image: url('../img/rengagement183.jpg');
+    background-image: url('../img/section1.jpg');
     background-size: cover;
     background-repeat: repeat-y;
 }
 .section-two.image {
     background-image: url('../img/weddingInfoSection2.jpg');
 }
-
+.section-three.image {
+    background-image: url('../img/section3.jpg');
+}
+.section-four.image {
+    background-image: url('../img/section4.jpg');
+}
+.section-five.image {
+    background-image: url('../img/section5.jpg');
+}
+.section-six.image {
+    background-image: url('../img/section6.jpg');
+}
 
 html {
   scroll-behavior: smooth;
@@ -392,11 +403,19 @@ nav a {
 /* --------------------------
   Link Styles
 --------------------------- */
-
-
+/*link log*/
+.linkLogo{
+    width: 75px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
 /* Effect 8: border slight translate */
 .cl-effect-8 a {
   padding:17px 20px 10px 20px
+}
+.cl-effect-8 a span{
+  position: relative;
+  top:-10px;
 }
 
 .cl-effect-8 a::before,
@@ -526,4 +545,3 @@ nav a {
     }
 
     /*loader*/
-    
