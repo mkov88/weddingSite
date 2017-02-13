@@ -543,5 +543,17 @@ nav a {
       padding-left:30px;
       padding-top:10px
     }
-
+.logo{
+  color: transparent;
+  background-color: transparent;
+}
     /*loader*/
+
+    .overlay {
+   background:transparent;
+   position:relative;
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
