@@ -10,7 +10,11 @@ body{
   margin: 0;
   overflow:auto;
 }
-
+.section-five.image{
+  height: 100%;
+  margin: 0;
+  overflow:auto;
+}
 .section-one{
   background-color: #d7fff5;
 }
@@ -376,6 +380,7 @@ svg {
 
 p.hotelText {
   margin:0;
+  max-width: 90%;
 }
 .panel.add{
   margin-top: -35px;
