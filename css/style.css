@@ -15,6 +15,18 @@ body{
   margin: 0;
   overflow:auto;
 }
+.section-two.image{
+  height: 100%;
+  margin: 0;
+  overflow:auto;
+}
+.section-two nav a{
+  color:#45b1b7;
+  transition: .3s ease;
+}
+.section-two nav a:hover{
+  color:#ffffff;
+}
 .section-one{
   background-color: #d7fff5;
 }
