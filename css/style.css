@@ -10,7 +10,8 @@ body{
   margin: 0;
   overflow:auto;
 }
-.section-five.image{
+.section-five.image,
+.section-three.image{
   height: 100%;
   margin: 0;
   overflow:auto;
